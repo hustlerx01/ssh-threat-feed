@@ -1,0 +1,110 @@
+{
+  "feed": [
+    {
+      "ip": "187.141.143.180",
+      "score": 67,
+      "attempts": 160,
+      "fails": 160,
+      "invalid_user": 58,
+      "success": 0,
+      "distinct_users": 28,
+      "top_users": [
+        "root",
+        "oracle",
+        "git",
+        "deploy",
+        "mysql"
+      ],
+      "first_seen": "Dec 10 09:12:46",
+      "last_seen": "Dec 10 09:20:02",
+      "sources": [
+        "OpenSSH_2k.log"
+      ]
+    },
+    {
+      "ip": "183.62.140.253",
+      "score": 60,
+      "attempts": 573,
+      "fails": 573,
+      "invalid_user": 18,
+      "success": 0,
+      "distinct_users": 10,
+      "top_users": [
+        "root",
+        "oracle",
+        "zhangyan",
+        "dff",
+        "test"
+      ],
+      "first_seen": "Dec 10 10:54:27",
+      "last_seen": "Dec 10 11:04:43",
+      "sources": [
+        "OpenSSH_2k.log"
+      ]
+    },
+    {
+      "ip": "103.99.0.122",
+      "score": 47,
+      "attempts": 92,
+      "fails": 92,
+      "invalid_user": 70,
+      "success": 0,
+      "distinct_users": 19,
+      "top_users": [
+        "admin",
+        "root",
+        "user",
+        "support",
+        "1234"
+      ],
+      "first_seen": "Dec 10 09:11:20",
+      "last_seen": "Dec 10 11:04:45",
+      "sources": [
+        "OpenSSH_2k.log"
+      ]
+    },
+    {
+      "ip": "203.0.113.66",
+      "score": 43,
+      "attempts": 9,
+      "fails": 8,
+      "invalid_user": 0,
+      "success": 1,
+      "distinct_users": 1,
+      "top_users": [
+        "root"
+      ],
+      "first_seen": "2026-10-10T10:00:12Z",
+      "last_seen": "2026-10-10T10:00:23Z",
+      "sources": [
+        "cowrie"
+      ]
+    }
+  ],
+  "alerts": [
+    {
+      "ip": "119.137.62.142",
+      "why": "successful SSH login from non-allow-listed IP after 0 failures",
+      "users": [
+        "fztu"
+      ]
+    },
+    {
+      "ip": "203.0.113.66",
+      "why": "successful SSH login from non-allow-listed IP after 8 failures",
+      "users": [
+        "root"
+      ]
+    }
+  ],
+  "clusters": [
+    [
+      "198.51.100.31",
+      "198.51.100.32"
+    ],
+    [
+      "103.207.39.212",
+      "103.207.39.16"
+    ]
+  ]
+}

@@ -1,0 +1,99 @@
+{
+    "type": "bundle",
+    "id": "bundle--3dadb615-9a45-4abd-8847-e404277f2581",
+    "objects": [
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--6f1f3e4c-6c55-5d2f-9a1e-2b7c7d6a0001",
+            "created": "2026-10-11T10:13:12.665901Z",
+            "modified": "2026-10-11T10:13:12.665901Z",
+            "name": "ssh-threat-feed (lab)",
+            "identity_class": "individual"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--44898921-bd13-4c93-b9fe-95b28d9432ec",
+            "created_by_ref": "identity--6f1f3e4c-6c55-5d2f-9a1e-2b7c7d6a0001",
+            "created": "2026-10-11T10:13:12.666059Z",
+            "modified": "2026-10-11T10:13:12.666059Z",
+            "name": "SSH brute-force source 187.141.143.180",
+            "description": "fails=160 users=5",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ipv4-addr:value = '187.141.143.180']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2026-10-11T10:13:12.666059Z",
+            "labels": [
+                "ssh-bruteforce"
+            ],
+            "confidence": 67
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c95833fa-bf03-4bb3-8af3-0a92e47d5d33",
+            "created_by_ref": "identity--6f1f3e4c-6c55-5d2f-9a1e-2b7c7d6a0001",
+            "created": "2026-10-11T10:13:12.674201Z",
+            "modified": "2026-10-11T10:13:12.674201Z",
+            "name": "SSH brute-force source 183.62.140.253",
+            "description": "fails=573 users=5",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ipv4-addr:value = '183.62.140.253']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2026-10-11T10:13:12.674201Z",
+            "labels": [
+                "ssh-bruteforce"
+            ],
+            "confidence": 60
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--1af55fa9-a7e4-439d-942a-55c065f81a5b",
+            "created_by_ref": "identity--6f1f3e4c-6c55-5d2f-9a1e-2b7c7d6a0001",
+            "created": "2026-10-11T10:13:12.674766Z",
+            "modified": "2026-10-11T10:13:12.674766Z",
+            "name": "SSH brute-force source 103.99.0.122",
+            "description": "fails=92 users=5",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ipv4-addr:value = '103.99.0.122']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2026-10-11T10:13:12.674766Z",
+            "labels": [
+                "ssh-bruteforce"
+            ],
+            "confidence": 47
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--2e1943cb-f3fc-4062-acb8-a87020308266",
+            "created_by_ref": "identity--6f1f3e4c-6c55-5d2f-9a1e-2b7c7d6a0001",
+            "created": "2026-10-11T10:13:12.675114Z",
+            "modified": "2026-10-11T10:13:12.675114Z",
+            "name": "SSH brute-force source 203.0.113.66",
+            "description": "fails=8 users=1",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ipv4-addr:value = '203.0.113.66']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2026-10-11T10:13:12.675114Z",
+            "labels": [
+                "ssh-bruteforce"
+            ],
+            "confidence": 43
+        }
+    ]
+}

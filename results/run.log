@@ -1,0 +1,9 @@
+events=1232 unique_ips=29 feed_ips=4 success_alerts=2 playbook_clusters=2
+  187.141.143.180  score= 67 fails= 160 users= 28 top=['root', 'oracle', 'git']
+  183.62.140.253   score= 60 fails= 573 users= 10 top=['root', 'oracle', 'zhangyan']
+  103.99.0.122     score= 47 fails=  92 users= 19 top=['admin', 'root', 'user']
+  203.0.113.66     score= 43 fails=   8 users=  1 top=['root']
+  ALERT {"ip": "119.137.62.142", "why": "successful SSH login from non-allow-listed IP after 0 failures", "users": ["fztu"]}
+  ALERT {"ip": "203.0.113.66", "why": "successful SSH login from non-allow-listed IP after 8 failures", "users": ["root"]}
+  cluster ['198.51.100.31', '198.51.100.32']
+  cluster ['103.207.39.212', '103.207.39.16']

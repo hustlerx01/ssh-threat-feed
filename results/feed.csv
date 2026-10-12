@@ -1,0 +1,5 @@
+ip,score,attempts,fails,invalid_user,success,distinct_users,top_users,first_seen,last_seen,sources
+187.141.143.180,67,160,160,58,0,28,root;oracle;git;deploy;mysql,Dec 10 09:12:46,Dec 10 09:20:02,OpenSSH_2k.log
+183.62.140.253,60,573,573,18,0,10,root;oracle;zhangyan;dff;test,Dec 10 10:54:27,Dec 10 11:04:43,OpenSSH_2k.log
+103.99.0.122,47,92,92,70,0,19,admin;root;user;support;1234,Dec 10 09:11:20,Dec 10 11:04:45,OpenSSH_2k.log
+203.0.113.66,43,9,8,0,1,1,root,2026-10-10T10:00:12Z,2026-10-10T10:00:23Z,cowrie
